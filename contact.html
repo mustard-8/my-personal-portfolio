@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me | My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>CONTACT ME</h1>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html" class="active">Contact</a>
+    </nav>
+</header>
+
+<main class="container">
+
+    <section class="content-card">
+        <h2>Get In Touch</h2>
+
+        <p>
+            Thank you for visiting my portfolio.
+            You can contact me using the information below
+            or send me a message through the form.
+        </p>
+
+        <p>
+            Email:
+            <a href="mailto:henrickkombe@gmail.com">
+                henrickkombe@gmail.com
+            </a>
+        </p>
+    </section>
+
+    <section class="content-card">
+        <h2>Send Me a Message</h2>
+
+        <form action="mailto:henrickkombe@gmail.com"
+              method="post"
+              enctype="text/plain">
+
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name"
+                   placeholder="Enter your name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email"
+                   placeholder="Enter your email" required>
+
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject"
+                   placeholder="Enter subject">
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message"
+                      rows="5"
+                      placeholder="Write your message here"
+                      required></textarea>
+
+            <button type="submit" class="btn">
+                Send Message
+            </button>
+
+            <button type="reset" class="reset-btn">
+                Clear Form
+            </button>
+
+        </form>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 HENRICK KOMBE. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
