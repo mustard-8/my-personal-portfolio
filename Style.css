@@ -299,7 +299,12 @@ nav a.active {
 .eyebrow {
     color: #E8B84C;
 }
-
+.hero img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+}
 footer {
     color: #E8B84C;
     border-top: 2px solid #E8B84C;
