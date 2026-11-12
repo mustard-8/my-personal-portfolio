@@ -309,3 +309,9 @@ footer {
     color: #E8B84C;
     border-top: 2px solid #E8B84C;
 }
+.profile-photo {
+    width: 140px !important;
+    height: 140px !important;
+    object-fit: cover;
+    border-radius: 50%;
+}
